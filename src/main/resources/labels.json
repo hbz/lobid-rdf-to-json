@@ -9994,5 +9994,11 @@
 	"container" : "@set",
 	"uri": "http://d-nb.info/standards/elementset/gnd#Work",
 	"referenceType" : "@id"
+	},
+	{
+	"name":"ANYTYPE",
+	"container" : "@set",
+	"uri":"http://www.w3.org/2001/XMLSchema/anyType",
+	"referenceType":"@id"
 	}
 ]
