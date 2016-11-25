@@ -5674,6 +5674,22 @@
         "multilangLabel": { }
     },
     {
+        "uri": "http://bibframe.org/vocab/agent",
+        "label": "Agent",
+        "name": "agent",
+        "referenceType": "@id",
+        "container": "@set",
+        "multilangLabel": { }
+    },
+    {
+        "uri": "http://bibframe.org/vocab/contribution",
+        "label": "Mitwirkende",
+        "name": "contribution",
+        "referenceType": "@id",
+        "container": "@list",
+        "multilangLabel": { }
+    },
+    {
         "uri": "http://id.loc.gov/vocabulary/relators/act",
         "label": "Schauspieler/in",
         "name": "actor",
@@ -5882,14 +5898,6 @@
         "multilangLabel": { }
     },
     {
-        "uri": "http://purl.org/dc/elements/1.1/contributor",
-        "label": "Mitwirkende",
-        "name": "contributorName",
-        "referenceType": "String",
-        "container": "@set",
-        "multilangLabel": { }
-    },
-    {
         "uri": "http://purl.org/dc/elements/1.1/coverage",
         "label": "Raumsystematik",
         "name": "coverage",
@@ -5958,14 +5966,6 @@
         "label": "Veröffentlichungs Details",
         "name": "bibliographicCitation",
         "referenceType": "String",
-        "container": "@set",
-        "multilangLabel": { }
-    },
-    {
-        "uri": "http://purl.org/dc/terms/contributor",
-        "label": "Mitwirkende",
-        "name": "contributor",
-        "referenceType": "@id",
         "container": "@set",
         "multilangLabel": { }
     },
@@ -11781,6 +11781,15 @@
         "container": "@set",
         "multilangLabel": { }
     },
+    {
+        "uri": "http://bibframe.org/vocab/Contribution",
+        "label": "Mitwirkung",
+        "name": "Contribution",
+        "referenceType": "id",
+        "container": "@set",
+        "multilangLabel": { }
+    },
+
     {
         "uri": "http://purl.org/ontology/bibo/edition",
         "label": "Auflage",
