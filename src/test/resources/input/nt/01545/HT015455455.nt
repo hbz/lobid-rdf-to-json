@@ -1,11 +1,13 @@
-_:Bf974ea4d0021b69f17dc995c5f7febff <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/4443675-0, http://d-nb.info/gnd/4073757-3, Geschichte 1918-1940, Verzeichnis" .
-_:Bf974ea4d0021b69f17dc995c5f7febff <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd6c2c4895127c68c6cdcd23250087e1e .
-_:Bd6c2c4895127c68c6cdcd23250087e1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/4576855-9, http://d-nb.info/gnd/4073757-3, Geschichte 1920-1945, Verzeichnis" .
-_:Bd6c2c4895127c68c6cdcd23250087e1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:B610eca541ba854f1b2126e3e01767ccd <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BVerzeichnis .
-_:B610eca541ba854f1b2126e3e01767ccd <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Bf5b38eacfa66a6868ac3f7e91b145437 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4443675-0> .
+_:Bf5b38eacfa66a6868ac3f7e91b145437 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Ba7475d4acd2b8cb0e057f60ac8fb9f54 .
+_:B4380f1ce28e8706ba50876a4ab664654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichte .
+_:B4380f1ce28e8706ba50876a4ab664654 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bc9cbb3ba3325330951bdd0b0e1bf2e3f .
+_:B509dfeaaa7b8765b5d889abfde930f07 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichte .
+_:B509dfeaaa7b8765b5d889abfde930f07 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bf5b38eacfa66a6868ac3f7e91b145437 .
 _:BGeschichteX201920X2D1945 <http://www.w3.org/2000/01/rdf-schema#label> "Geschichte 1920-1945" .
 _:BGeschichteX201920X2D1945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
+_:B128bc8a8e5229615fa10c36128232c93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4207786-2> .
+_:B128bc8a8e5229615fa10c36128232c93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B509dfeaaa7b8765b5d889abfde930f07 .
 <http://d-nb.info/gnd/2101246-5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#CorporateBody> .
 <http://d-nb.info/gnd/2101246-5> <http://www.w3.org/2000/01/rdf-schema#label> "Austro-Daimler-Puchwerke" .
 <http://d-nb.info/gnd/124897274> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#Person> .
@@ -14,25 +16,26 @@ _:BGeschichteX201920X2D1945 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <h
 <http://d-nb.info/gnd/4207786-2> <http://www.w3.org/2000/01/rdf-schema#label> "Steyr-Daimler-Puch AG" .
 _:BGeschichte <http://www.w3.org/2000/01/rdf-schema#label> "Geschichte" .
 _:BGeschichte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
-<http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectOrder> _:B2ef33319b15db85edd5978e4334c2c10 .
+_:Bddf06899ff37257f2ab3d949f60c9c68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BVerzeichnis .
+_:Bddf06899ff37257f2ab3d949f60c9c68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/dc/terms/description> <http://deposit.d-nb.de/cgi-bin/dokserv?id=2957975&prov=M&dok_var=1&dok_ext=htm> .
-<http://lobid.org/resources/HT015455455#!> <http://bibframe.org/vocab/contribution> _:Be171ead50a9fec5654c8d8807d79ddf4 .
+<http://lobid.org/resources/HT015455455#!> <http://bibframe.org/vocab/contribution> _:Bc3cd6e25cf9e071cdcd5d7ef6d7c3aa5 .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT015455455:DE-107:208-316#!> .
+<http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectOrder> _:Bb28cd512bf9caffbe9980901e86aa888 .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "SDP AG" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/deu> .
 <http://lobid.org/resources/HT015455455#!> <http://www.w3.org/2002/07/owl#sameAs> <http://hub.culturegraph.org/resource/HBZ-HT015455455> .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Kfz" .
 <http://lobid.org/resources/HT015455455#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/dc/terms/BibliographicResource> .
+<http://lobid.org/resources/HT015455455#!> <http://schema.org/publication> _:B345ee39fb265973fcf91780c185b8eb1 .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Automobilrennsport" .
-<http://lobid.org/resources/HT015455455#!> <http://purl.org/dc/terms/subject> _:B268ccc71859054b150e5e2506c5a0524 .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Steyr-Daimler-Puch-AG" .
-<http://lobid.org/resources/HT015455455#!> <http://schema.org/publication> _:B8b0e9115120ef08e0e1b584f90a0ba61 .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#rpbSubject> <https://w3id.org/lobid/rpb2#n650> .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectChain> "Austro-Daimler-Puchwerke | Automobilsport | Steyr-Daimler-Puch AG | Geschichte (2134,3214)" .
 <http://lobid.org/resources/HT015455455#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/Book> .
-<http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "\u00D6sterreichische Daimler-Motoren-Commanditgesellschaft Bierenz, Fischer und Co. (Wiener Neustadt)" .
-<http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Motorfahrzeug" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#hbzID> "HT015455455" .
+<http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Motorfahrzeug" .
+<http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "\u00D6sterreichische Daimler-Motoren-Commanditgesellschaft Bierenz, Fischer und Co. (Wiener Neustadt)" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT015455455:DE-82:(1)043776#!> .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectChain> "Daimler, Marke | Kraftfahrzeug | Geschichte 1918-1940 | Verzeichnis (2134)" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Autorennsport" .
@@ -50,75 +53,72 @@ _:BGeschichte <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.inf
 <http://lobid.org/resources/HT015455455#!> <http://iflastandards.info/ns/isbd/elements/P1053> "291 S. : Ill., graph. Darst." .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/lobid/lv#subjectLabel> "Daimler-Puchwerke, Austro-" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/dc/terms/subject> <http://dewey.info/class/330/> .
+<http://lobid.org/resources/HT015455455#!> <http://purl.org/dc/terms/subject> _:B5f5a3efd80aba288243a8fcc38059132 .
 <http://lobid.org/resources/HT015455455#!> <http://rdaregistry.info/Elements/u/P60339> "Martin Pfundner" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/ontology/bibo/isbn> "9783205776390" .
 <http://lobid.org/resources/HT015455455#!> <http://purl.org/dc/terms/title> "Austro-Daimler und Steyr" .
-_:B428273ba1893b93d20d40bb4ba1f9f7d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/2101246-5, http://d-nb.info/gnd/4003988-2, http://d-nb.info/gnd/4207786-2, Geschichte" .
-_:B428273ba1893b93d20d40bb4ba1f9f7d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bf974ea4d0021b69f17dc995c5f7febff .
-_:B4a3289619019b25678b143886db26c4b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4443675-0> .
-_:B4a3289619019b25678b143886db26c4b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bf822eb9a12b0955ca7e55ea891f0d4fd .
+_:B5f5a3efd80aba288243a8fcc38059132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/2101246-5> .
+_:B5f5a3efd80aba288243a8fcc38059132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B02ac467cd2ac6fda9514559fdc7d96a9 .
+_:Ba7475d4acd2b8cb0e057f60ac8fb9f54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4073757-3> .
+_:Ba7475d4acd2b8cb0e057f60ac8fb9f54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B99382a74b98f8c091e1fab547b855302 .
+_:Bc008f63465f8f26830bbcc8a1a8714bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/4443675-0, http://d-nb.info/gnd/4073757-3, Geschichte 1918-1940, Verzeichnis" .
+_:Bc008f63465f8f26830bbcc8a1a8714bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bec4b3ae94322ada6d3a849b10911f447 .
 <http://d-nb.info/gnd/118595881> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#Person> .
 <http://d-nb.info/gnd/118595881> <http://www.w3.org/2000/01/rdf-schema#label> "Porsche, Ferdinand" .
 <http://d-nb.info/gnd/118595881> <http://d-nb.info/standards/elementset/gnd#dateOfBirth> "1875" .
 <http://d-nb.info/gnd/118595881> <http://d-nb.info/standards/elementset/gnd#dateOfDeath> "1951" .
 _:BGeschichteX201918X2D1940 <http://www.w3.org/2000/01/rdf-schema#label> "Geschichte 1918-1940" .
 _:BGeschichteX201918X2D1940 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
-_:Bf822eb9a12b0955ca7e55ea891f0d4fd <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4073757-3> .
-_:Bf822eb9a12b0955ca7e55ea891f0d4fd <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B2bbe2a9ef38d8fabb8fe884b57c27e74 .
 <http://d-nb.info/gnd/4443675-0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
 <http://d-nb.info/gnd/4443675-0> <http://www.w3.org/2000/01/rdf-schema#label> "Daimler, Marke" .
-_:B4f2b6688c30e956992f9767a7509fc1d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichteX201920X2D1945 .
-_:B4f2b6688c30e956992f9767a7509fc1d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B610eca541ba854f1b2126e3e01767ccd .
+_:Bc9cbb3ba3325330951bdd0b0e1bf2e3f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/2101246-5> .
+_:Bc9cbb3ba3325330951bdd0b0e1bf2e3f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bcd936afad61c6d3951b8f28b510a3621 .
+_:Bcd936afad61c6d3951b8f28b510a3621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4003988-2> .
+_:Bcd936afad61c6d3951b8f28b510a3621 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B128bc8a8e5229615fa10c36128232c93 .
+_:B345ee39fb265973fcf91780c185b8eb1 <http://schema.org/location> "Wien ; K\u00F6ln ; Weimar" .
+_:B345ee39fb265973fcf91780c185b8eb1 <http://schema.org/startDate> "2007" .
 _:BVerzeichnis <http://www.w3.org/2000/01/rdf-schema#label> "Verzeichnis" .
 _:BVerzeichnis <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
-_:Bfaeaece28374a297c672213f1d60e8a6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4576855-9> .
-_:Bfaeaece28374a297c672213f1d60e8a6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B39baae8c946532ac5eb6acbdc26ddca0 .
-_:Be171ead50a9fec5654c8d8807d79ddf4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BhttpX3AX2FX2FdX2DnbX2EinfoX2FgndX2F124897274httpX3AX2FX2FidX2ElocX2EgovX2FvocabularyX2FrelatorsX2Fcre .
-_:Be171ead50a9fec5654c8d8807d79ddf4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Bb28cd512bf9caffbe9980901e86aa888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/2101246-5, http://d-nb.info/gnd/118595881, http://d-nb.info/gnd/4207786-2, Geschichte" .
+_:Bb28cd512bf9caffbe9980901e86aa888 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B3be05a3d0fc27bb5319c05ae78e983eb .
+_:Bc3cd6e25cf9e071cdcd5d7ef6d7c3aa5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BhttpX3AX2FX2FdX2DnbX2EinfoX2FgndX2F124897274httpX3AX2FX2FidX2ElocX2EgovX2FvocabularyX2FrelatorsX2Fcre .
+_:Bc3cd6e25cf9e071cdcd5d7ef6d7c3aa5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:Bc8aafcee52fb41d5bb914fcd7ef643bb <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4576855-9> .
+_:Bc8aafcee52fb41d5bb914fcd7ef643bb <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Be806b0be7d33b23f53a786a6f3b817cf .
 <http://d-nb.info/gnd/4003988-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
 <http://d-nb.info/gnd/4003988-2> <http://www.w3.org/2000/01/rdf-schema#label> "Automobilsport" .
 <http://d-nb.info/gnd/4576855-9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
 <http://d-nb.info/gnd/4576855-9> <http://www.w3.org/2000/01/rdf-schema#label> "Steyr, Marke" .
-_:B268ccc71859054b150e5e2506c5a0524 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/2101246-5> .
-_:B268ccc71859054b150e5e2506c5a0524 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B594f049ec18854f739775f4c763ab03d .
-_:Bca808a542ecdebdd2fbef4364c522138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichte .
-_:Bca808a542ecdebdd2fbef4364c522138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B4a3289619019b25678b143886db26c4b .
-_:B8b659c07f16d717588b8c3cd1e496b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4207786-2> .
-_:B8b659c07f16d717588b8c3cd1e496b74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bca808a542ecdebdd2fbef4364c522138 .
-_:B534aa380069ab04a1b4d1ccd8d40d95b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichte .
-_:B534aa380069ab04a1b4d1ccd8d40d95b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B01a1614ea6f2e78fc41989b0167fc31b .
-_:B594f049ec18854f739775f4c763ab03d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/118595881> .
-_:B594f049ec18854f739775f4c763ab03d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B02fb12f094e8019b150780312d8c57b5 .
+_:B02ac467cd2ac6fda9514559fdc7d96a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/118595881> .
+_:B02ac467cd2ac6fda9514559fdc7d96a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6d126c4c0e807f3c1f64d73f663d3c95 .
+_:B3be05a3d0fc27bb5319c05ae78e983eb <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/2101246-5, http://d-nb.info/gnd/4003988-2, http://d-nb.info/gnd/4207786-2, Geschichte" .
+_:B3be05a3d0fc27bb5319c05ae78e983eb <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bc008f63465f8f26830bbcc8a1a8714bf .
+_:Be806b0be7d33b23f53a786a6f3b817cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4073757-3> .
+_:Be806b0be7d33b23f53a786a6f3b817cf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B91037f7a7c9812586e407e90473e0052 .
+_:B99382a74b98f8c091e1fab547b855302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichteX201918X2D1940 .
+_:B99382a74b98f8c091e1fab547b855302 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bd021ba1bc4479cd75e1f37cd44e044e6 .
 <http://lobid.org/items/HT015455455:DE-82:(1)043776#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT015455455:DE-82:(1)043776#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT015455455:DE-82:(1)043776> .
 <http://lobid.org/items/HT015455455:DE-82:(1)043776#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT015455455#!> .
 <http://lobid.org/items/HT015455455:DE-82:(1)043776#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-82> .
 <http://lobid.org/items/HT015455455:DE-82:(1)043776#!> <http://purl.org/ontology/daia/label> "(1)043776" .
-_:B02fb12f094e8019b150780312d8c57b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4207786-2> .
-_:B02fb12f094e8019b150780312d8c57b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B534aa380069ab04a1b4d1ccd8d40d95b .
 <http://lobid.org/resources/HT015455455> <http://purl.org/dc/terms/created> "20080304" .
 <http://lobid.org/resources/HT015455455> <http://purl.org/dc/terms/modified> "20130930" .
-_:B39baae8c946532ac5eb6acbdc26ddca0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4073757-3> .
-_:B39baae8c946532ac5eb6acbdc26ddca0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B4f2b6688c30e956992f9767a7509fc1d .
-_:B8b0e9115120ef08e0e1b584f90a0ba61 <http://schema.org/location> "Wien ; K\u00F6ln ; Weimar" .
-_:B8b0e9115120ef08e0e1b584f90a0ba61 <http://schema.org/startDate> "2007" .
-_:B01a1614ea6f2e78fc41989b0167fc31b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/2101246-5> .
-_:B01a1614ea6f2e78fc41989b0167fc31b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6b5a0897d6fea7515331b2fd9b0d2c6c .
-_:BhttpX3AX2FX2FdX2DnbX2EinfoX2FgndX2F124897274httpX3AX2FX2FidX2ElocX2EgovX2FvocabularyX2FrelatorsX2Fcre <http://bibframe.org/vocab/relator> <http://id.loc.gov/vocabulary/relators/cre> .
+_:Bd021ba1bc4479cd75e1f37cd44e044e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BVerzeichnis .
+_:Bd021ba1bc4479cd75e1f37cd44e044e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bc8aafcee52fb41d5bb914fcd7ef643bb .
+_:Bec4b3ae94322ada6d3a849b10911f447 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/4576855-9, http://d-nb.info/gnd/4073757-3, Geschichte 1920-1945, Verzeichnis" .
+_:Bec4b3ae94322ada6d3a849b10911f447 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:BhttpX3AX2FX2FdX2DnbX2EinfoX2FgndX2F124897274httpX3AX2FX2FidX2ElocX2EgovX2FvocabularyX2FrelatorsX2Fcre <http://bibframe.org/vocab/role> <http://id.loc.gov/vocabulary/relators/cre> .
 _:BhttpX3AX2FX2FdX2DnbX2EinfoX2FgndX2F124897274httpX3AX2FX2FidX2ElocX2EgovX2FvocabularyX2FrelatorsX2Fcre <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://bibframe.org/vocab/Contribution> .
 _:BhttpX3AX2FX2FdX2DnbX2EinfoX2FgndX2F124897274httpX3AX2FX2FidX2ElocX2EgovX2FvocabularyX2FrelatorsX2Fcre <http://bibframe.org/vocab/agent> <http://d-nb.info/gnd/124897274> .
-_:B6b5a0897d6fea7515331b2fd9b0d2c6c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4003988-2> .
-_:B6b5a0897d6fea7515331b2fd9b0d2c6c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B8b659c07f16d717588b8c3cd1e496b74 .
 <http://lobid.org/items/HT015455455:DE-107:208-316#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT015455455:DE-107:208-316#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT015455455:DE-107:208-316> .
 <http://lobid.org/items/HT015455455:DE-107:208-316#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT015455455#!> .
 <http://lobid.org/items/HT015455455:DE-107:208-316#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-107> .
 <http://lobid.org/items/HT015455455:DE-107:208-316#!> <http://purl.org/ontology/daia/label> "208-316" .
+_:B6d126c4c0e807f3c1f64d73f663d3c95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4207786-2> .
+_:B6d126c4c0e807f3c1f64d73f663d3c95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B4380f1ce28e8706ba50876a4ab664654 .
 <http://d-nb.info/gnd/4073757-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://d-nb.info/standards/elementset/gnd#SubjectHeading> .
 <http://d-nb.info/gnd/4073757-3> <http://www.w3.org/2000/01/rdf-schema#label> "Kraftfahrzeug" .
-_:B93dae9f62b9e4c22f435b8a6f989c9de <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BVerzeichnis .
-_:B93dae9f62b9e4c22f435b8a6f989c9de <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bfaeaece28374a297c672213f1d60e8a6 .
-_:B2bbe2a9ef38d8fabb8fe884b57c27e74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichteX201918X2D1940 .
-_:B2bbe2a9ef38d8fabb8fe884b57c27e74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B93dae9f62b9e4c22f435b8a6f989c9de .
-_:B2ef33319b15db85edd5978e4334c2c10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/2101246-5, http://d-nb.info/gnd/118595881, http://d-nb.info/gnd/4207786-2, Geschichte" .
-_:B2ef33319b15db85edd5978e4334c2c10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B428273ba1893b93d20d40bb4ba1f9f7d .
+_:B91037f7a7c9812586e407e90473e0052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:BGeschichteX201920X2D1945 .
+_:B91037f7a7c9812586e407e90473e0052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Bddf06899ff37257f2ab3d949f60c9c68 .
