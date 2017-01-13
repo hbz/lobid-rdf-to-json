@@ -26,8 +26,6 @@
 <http://lobid.org/items/HT010726584:DE-929:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-929:> .
 <http://lobid.org/items/HT010726584:DE-929:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-929:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-929> .
-_:Bcd11015057cff6bf4ca102b696091bbf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/4046259-6, http://d-nb.info/gnd/4067488-5, http://d-nb.info/gnd/4511937-5" .
-_:Bcd11015057cff6bf4ca102b696091bbf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://lobid.org/items/HT010726584:DE-A96:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT010726584:DE-A96:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-A96:> .
 <http://lobid.org/items/HT010726584:DE-A96:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
@@ -58,6 +56,10 @@ _:Bcd11015057cff6bf4ca102b696091bbf <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/items/HT010726584:DE-Due62:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-Due62:> .
 <http://lobid.org/items/HT010726584:DE-Due62:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-Due62:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-Due62> .
+_:Baa95f134b3a527400282005ec03a0d3f <http://schema.org/location> "S.l." .
+_:Baa95f134b3a527400282005ec03a0d3f <http://schema.org/publishedBy> "American Institute of Physics" .
+_:Baa95f134b3a527400282005ec03a0d3f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Publication> .
+_:Baa95f134b3a527400282005ec03a0d3f <http://schema.org/startDate> "1994" .
 <http://lobid.org/items/HT010726584:DE-1010:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT010726584:DE-1010:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-1010:> .
 <http://lobid.org/items/HT010726584:DE-1010:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
@@ -66,8 +68,8 @@ _:Bcd11015057cff6bf4ca102b696091bbf <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/items/HT010726584:DE-836:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-836:> .
 <http://lobid.org/items/HT010726584:DE-836:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-836:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-836> .
-_:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4046259-6> .
-_:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B01014b786cb65fb68f84f42aa725bbc5 .
+_:Be648be79e241663ca82a92cc91b0bf48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4511937-5> .
+_:Be648be79e241663ca82a92cc91b0bf48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://lobid.org/items/HT010726584:DE-290:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT010726584:DE-290:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-290:> .
 <http://lobid.org/items/HT010726584:DE-290:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
@@ -94,7 +96,6 @@ _:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/items/HT010726584:DE-Bi10:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-Bi10:> .
 <http://lobid.org/items/HT010726584:DE-Bi10:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-Bi10:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-Bi10> .
-<http://lobid.org/resources/HT010726584#!> <http://purl.org/lobid/lv#subjectOrder> _:Bcd11015057cff6bf4ca102b696091bbf .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/lobid/lv#subjectLabel> "Computerdatei im Fernzugriff (Formschlagwort)" .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/lobid/lv#subjectLabel> "On-line-Publikation" .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/dc/terms/medium> <http://rdvocab.info/termList/RDACarrierType/1018> .
@@ -104,7 +105,6 @@ _:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/dc/terms/title> "Physics of plasmas" .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-466:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://www.w3.org/2002/07/owl#sameAs> <http://ld.zdb-services.de/resource/1472746-8> .
-<http://lobid.org/resources/HT010726584#!> <http://purl.org/dc/terms/subject> _:B8daa23b606f286744e5081dcbbfdb439 .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-107:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-51:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/dc/terms/language> <http://id.loc.gov/vocabulary/iso639-2/eng> .
@@ -120,6 +120,7 @@ _:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/dc/terms/medium> <http://rdvocab.info/termList/RDACarrierType/1010> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-38:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://xmlns.com/foaf/0.1/isPrimaryTopicOf> <http://193.30.112.134/F/?func=find-c&ccl_term=IDN%3DHT010726584> .
+<http://lobid.org/resources/HT010726584#!> <http://purl.org/lobid/lv#subjectOrder> _:B5a9228bf7200cb5c130c5a726c7caa55 .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-467:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-464:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-385:#!> .
@@ -128,6 +129,7 @@ _:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-61:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/lobid/lv#subjectLabel> "Online-Datenbank (Formschlagwort)" .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-1010:#!> .
+<http://lobid.org/resources/HT010726584#!> <http://schema.org/publication> _:Baa95f134b3a527400282005ec03a0d3f .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-829:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/resources/HT010726584> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-Bi10:#!> .
@@ -147,10 +149,10 @@ _:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-1383:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-836:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-465:#!> .
+<http://lobid.org/resources/HT010726584#!> <http://purl.org/dc/terms/subject> _:B9ad67f4d5a771fa2386d2c8259069fc1 .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-386:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-361:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-832:#!> .
-<http://lobid.org/resources/HT010726584#!> <http://schema.org/publication> _:Bf4c1681e933c56d9cecbbd405e0622f8 .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-290:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-1393:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-6:#!> .
@@ -161,10 +163,6 @@ _:B8daa23b606f286744e5081dcbbfdb439 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-Lan1:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/vocab/frbr/core#exemplar> <http://lobid.org/items/HT010726584:DE-708:#!> .
 <http://lobid.org/resources/HT010726584#!> <http://purl.org/ontology/bibo/shortTitle> "PHPAEN" .
-_:B9f550044c9de8fc1d3ab6f93da5ba7f3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4511937-5> .
-_:B9f550044c9de8fc1d3ab6f93da5ba7f3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-_:B01014b786cb65fb68f84f42aa725bbc5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4067488-5> .
-_:B01014b786cb65fb68f84f42aa725bbc5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B9f550044c9de8fc1d3ab6f93da5ba7f3 .
 <http://lobid.org/items/HT010726584:DE-51:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT010726584:DE-51:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-51:> .
 <http://lobid.org/items/HT010726584:DE-51:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
@@ -201,14 +199,14 @@ _:B01014b786cb65fb68f84f42aa725bbc5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#
 <http://lobid.org/items/HT010726584:DE-38M:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-38M:> .
 <http://lobid.org/items/HT010726584:DE-38M:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-38M:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-38M> .
-_:Bf4c1681e933c56d9cecbbd405e0622f8 <http://schema.org/location> "S.l." .
-_:Bf4c1681e933c56d9cecbbd405e0622f8 <http://schema.org/publishedBy> "American Institute of Physics" .
-_:Bf4c1681e933c56d9cecbbd405e0622f8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Publication> .
-_:Bf4c1681e933c56d9cecbbd405e0622f8 <http://schema.org/startDate> "1994" .
 <http://lobid.org/items/HT010726584:DE-6:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT010726584:DE-6:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-6:> .
 <http://lobid.org/items/HT010726584:DE-6:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-6:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-6> .
+_:B6ad70438bb0018865aa1f9865cff49bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4067488-5> .
+_:B6ad70438bb0018865aa1f9865cff49bf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Be648be79e241663ca82a92cc91b0bf48 .
+_:B9ad67f4d5a771fa2386d2c8259069fc1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://d-nb.info/gnd/4046259-6> .
+_:B9ad67f4d5a771fa2386d2c8259069fc1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:B6ad70438bb0018865aa1f9865cff49bf .
 <http://lobid.org/items/HT010726584:DE-386:#!> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocab/frbr/core#Item> .
 <http://lobid.org/items/HT010726584:DE-386:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-386:> .
 <http://lobid.org/items/HT010726584:DE-386:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
@@ -217,3 +215,5 @@ _:Bf4c1681e933c56d9cecbbd405e0622f8 <http://schema.org/startDate> "1994" .
 <http://lobid.org/items/HT010726584:DE-466:#!> <http://www.w3.org/2007/05/powder-s#describedby> <http://lobid.org/items/HT010726584:DE-466:> .
 <http://lobid.org/items/HT010726584:DE-466:#!> <http://purl.org/vocab/frbr/core#exemplarOf> <http://lobid.org/resources/HT010726584#!> .
 <http://lobid.org/items/HT010726584:DE-466:#!> <http://purl.org/vocab/frbr/core#owner> <http://lobid.org/organisation/DE-466> .
+_:B5a9228bf7200cb5c130c5a726c7caa55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "http://d-nb.info/gnd/4046259-6, http://d-nb.info/gnd/4067488-5, http://d-nb.info/gnd/4511937-5" .
+_:B5a9228bf7200cb5c130c5a726c7caa55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
