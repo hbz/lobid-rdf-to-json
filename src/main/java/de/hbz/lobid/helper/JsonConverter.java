@@ -19,6 +19,7 @@ package de.hbz.lobid.helper;
 
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -28,11 +29,11 @@ import java.util.Set;
 import java.util.TreeMap;
 
 import org.codehaus.jackson.map.ObjectMapper;
-import org.openrdf.model.BNode;
-import org.openrdf.model.Graph;
-import org.openrdf.model.Statement;
-import org.openrdf.model.impl.URIImpl;
-import org.openrdf.rio.RDFFormat;
+import org.eclipse.rdf4j.model.BNode;
+import org.eclipse.rdf4j.model.IRI;
+import org.eclipse.rdf4j.model.Literal;
+import org.eclipse.rdf4j.model.Statement;
+import org.eclipse.rdf4j.rio.RDFFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -87,7 +88,7 @@ public class JsonConverter {
 	 */
 	public Map<String, Object> convertLobidData(InputStream in, RDFFormat format,
 			final String rootNodePrefix, Object context) {
-		Graph g = RdfUtils.readRdfToGraph(in, format, "");
+		Collection<Statement> g = RdfUtils.readRdfToGraph(in, format, "");
 		String subject = g.parallelStream()
 				.filter(triple -> triple.getPredicate().stringValue()
 						.equals("http://www.w3.org/2007/05/powder-s#describedby"))
@@ -110,11 +111,12 @@ public class JsonConverter {
 	 */
 	public Map<String, Object> convert(String subject, InputStream in,
 			RDFFormat format, Object context) {
-		Graph g = RdfUtils.readRdfToGraph(in, format, "");
+		Collection<Statement> g = RdfUtils.readRdfToGraph(in, format, "");
 		return convert(subject, context, g);
 	}
 
-	private Map<String, Object> convert(String subject, Object context, Graph g) {
+	private Map<String, Object> convert(String subject, Object context,
+			Collection<Statement> g) {
 		mainSubjectOfTheResource = subject;
 		collect(g);
 		Map<String, Object> result = createMap(g);
@@ -122,7 +124,7 @@ public class JsonConverter {
 		return result;
 	}
 
-	private Map<String, Object> createMap(Graph g) {
+	private Map<String, Object> createMap(Collection<Statement> g) {
 		Map<String, Object> jsonResult = new TreeMap<>();
 		Iterator<Statement> i = g.iterator();
 		jsonResult.put(idAlias, mainSubjectOfTheResource);
@@ -139,11 +141,11 @@ public class JsonConverter {
 	private void createObject(Map<String, Object> jsonResult, Statement s,
 			Etikett e) {
 		String key = e.name;
-		if (s.getObject() instanceof org.openrdf.model.Literal) {
+		if (s.getObject() instanceof Literal) {
 			addLiteralToJsonResult(jsonResult, key, s.getObject().stringValue(),
 					etikette.getEtikett(s.getPredicate().stringValue()));
 		} else {
-			if (s.getObject() instanceof org.openrdf.model.BNode) {
+			if (s.getObject() instanceof BNode) {
 				if (isList(s)) {
 					addListToJsonResult(jsonResult, key, ((BNode) s.getObject()).getID());
 				} else {
@@ -198,7 +200,7 @@ public class JsonConverter {
 			if (uri.equals(s.getSubject().stringValue())
 					&& property.equals(s.getPredicate().stringValue())) {
 				if (property.equals(first)) {
-					if (s.getObject() instanceof URIImpl) {
+					if (s.getObject() instanceof IRI) {
 						orderedList.add(createObjectWithId(s.getObject().stringValue()));
 					} else if (s.getObject() instanceof BNode) {
 						orderedList.add(createObjectWithoutId(s.getObject().stringValue()));
@@ -306,7 +308,7 @@ public class JsonConverter {
 			Etikett e = etikette.getEtikett(s.getPredicate().stringValue());
 			if (labelKey.equals(e.name)) {
 				newObject.put(e.name, s.getObject().stringValue());
-			} else if (s.getObject() instanceof org.openrdf.model.Literal) {
+			} else if (s.getObject() instanceof Literal) {
 				if (newObject.containsKey(e.name)) {
 					Object existingValue = newObject.get(e.name);
 					if (existingValue instanceof String) {
@@ -368,7 +370,7 @@ public class JsonConverter {
 			jsonResult.put(key, value);
 	}
 
-	private void collect(Graph g) {
+	private void collect(Collection<Statement> g) {
 		Iterator<Statement> i = g.iterator();
 		while (i.hasNext()) {
 			Statement s = i.next();

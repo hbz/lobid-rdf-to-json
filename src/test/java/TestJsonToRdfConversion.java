@@ -34,9 +34,9 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
+import org.eclipse.rdf4j.rio.RDFFormat;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.openrdf.rio.RDFFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
