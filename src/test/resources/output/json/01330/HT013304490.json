@@ -93,20 +93,17 @@
     "label" : "Zeitschrift",
     "type" : [ "SubjectHeading" ]
   }, {
-    "id" : "http://dewey.info/class/050/",
-    "label" : "Zeitschriften, allgemeine fortlaufende Sammelwerke"
+    "id" : "http://dewey.info/class/620/",
+    "label" : "Ingenieurwissenschaften und zugeordnete Tätigkeitenn"
   }, {
     "id" : "http://dewey.info/class/070/",
     "label" : "Publizistische Medien, Journalismus, Verlagswesen"
   }, {
-    "id" : "http://dewey.info/class/620/",
-    "label" : "Ingenieurwissenschaften und zugeordnete Tätigkeitenn"
-  }, {
-    "id" : "http://dewey.info/class/790/",
-    "label" : "Freizeitgestaltung, darstellende Künste, Sport"
-  }, {
     "id" : "http://dewey.info/class/791/",
     "label" : "Öffentliche Darbietungen, Film, Rundfunk"
+  }, {
+    "id" : "http://dewey.info/class/050/",
+    "label" : "Zeitschriften, allgemeine fortlaufende Sammelwerke"
   } ],
   "subjectChain" : [ "Schmuck | Zeitschrift" ],
   "subjectLabel" : [ "Juwelierschmuck", "Zeitschriften", "Periodikum", "Schmuckware", "Juwelen", "Juwelenschmuck" ],

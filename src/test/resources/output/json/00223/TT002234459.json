@@ -109,9 +109,6 @@
   }, {
     "label" : "Karte",
     "type" : [ "SubjectHeading" ]
-  }, {
-    "id" : "http://dewey.info/class/914/",
-    "label" : "Geografie Europas und Reisen in Europa"
   } ],
   "subjectChain" : [ "Rhein-Lahn-Kreis | Jakobsweg | Karte (213)" ],
   "subjectLabel" : [ "Wandern, Diez, Lahnstein, Rhein-Lahn-Info, Rhein, Lahn, Wirtschaftsförderung", "Rhein-Lahn-Kreis / Landratsamt", "Camino de Santiago", "Chemin de Saint Jacques", "Sternenweg", "Rhein-Lahn-Kreis / Kreisverwaltung", "Jakobusweg" ],
